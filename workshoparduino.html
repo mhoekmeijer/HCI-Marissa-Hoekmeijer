@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio HCI Marissa Hoekmeijer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/font.css">
+  </head>
+  <body>
+      <div class="main-container">
+      <header>
+        <section class="navbar">
+            <a href="index.html">Home</a>
+              <div class="dropdowns">
+
+                <div class="menu-item-container">
+                  <a href="eerste.html" class="dropbtn">Playful Interaction</a>
+                  <div class="dropdown-content">
+                    <a href="playassignments.html">Assignments</a>
+                    <a href="playresearch.html">Research</a>
+                    <a href="playreflect.html">Reflect</a>
+                  </div>
+                </div>
+
+                <div class="menu-item-container">
+                  <a href="eerste.html"class="dropbtn">AR&VR</a>
+                    <div class="dropdown-content">
+                      <a href="arassignments.html">Assignments</a>
+                      <a href="arresearch.html">Research</a>
+                      <a href="arreflect.html">Reflect</a>
+                    </div>
+                </div>
+
+                <div class="menu-item-container">
+                    <a href="eerste.html" class="dropbtn">Wearables</a>
+                      <div class="dropdown-content">
+                        <a href="wearassignments.html">Assignments</a>
+                        <a href="wearresearch.html">Research</a>
+                        <a href="wearreflect.html">Reflect</a>
+                      </div>
+                </div>
+
+                <div class="menu-item-container">
+                      <a href="eerste.html" class="dropbtn">Artificial Creatures</a>
+                        <div class="dropdown-content">
+                          <a href="artassignments.html">Assignments</a>
+                          <a href="artresearch.html">Research</a>
+                          <a href="artreflect.html">Reflect</a>
+                        </div>
+                </div>
+
+                <div class="menu-item-container">
+                      <a href="eerste.html" class="dropbtn">Workshops</a>
+                        <div class="dropdown-content">
+                          <a href="workshopcomputer.html">Computervison</a>
+                          <a href="workshopenviro.html">Virtual Enviroment</a>
+                          <a href="workshoparduino.html">Arduino</a>
+                        </div>
+                </div>
+
+                <div class="menu-item-container">
+                      <a href="eerste.html" class="dropbtn">Excursie</a>
+                        <div class="dropdown-content">
+                          <a href="excursieassignments.html">Assignments</a>
+                          <a href="excursiereflect.html">Reflect</a>
+                        </div>
+                </div>
+
+                <div class="menu-item-container">
+                      <a href="eerste.html" class="dropbtn">Lab Weken</a>
+                        <div class="dropdown-content">
+                          <a href="labproces.html">Proces</a>
+                          <a href="labproduct.html">Product</a>
+                          <a href="labreflect.html">Reflect</a>
+                        </div>
+                </div>
+             </div>
+          </section>
+          <section id="home">
+            <div class="frameimg1">
+              <h1>Portfolio HCI Marissa Hoekmeijer</h1>
+            </div>
+          </section>
+      </header>
+      <main id="mainarduino">
+        <section>
+          <div class="geen-kleur">
+            <h2>Arduino workshop</h2>
+              <p>In de workshops van Arduino ga ik aan de slag met het programma Arduino, waarbij ik code schrijf en dit upload naar het Arduino board. Met het Arduino bord wordt een circuit opgesteld, waarbij ik bijvoorbeeld een lampje kan laten branden of muziek kan laten afspelen. Bekijk mijn oefeningen hieronder. </p>
+          </div>
+          <div class="kleur-strook" id="arduino3b">
+          <h3>Opdracht 3B </h3>
+            <p>In deze opdracht was het de bedoeling dat ik meerdere lampjes in een circuit kon laten branden. Uiteindelijk moest ik wat spelen met de code, om ze te laten blinken in de zelfde tijd. Ik heb de code aangepast, door de twee lampjes onder elkaar te zetten, zodat ze tegelijk zonder delay aanspringen. Daarna met een korte delay gaan ze tegelijk uit en met een volgende delay ertussen gaat de loop weer opnieuw lopen. </p>
+              <img  id="arduino1" src="images/Arduino/opdracht3.png" alt="opdr 3 ">
+              <video width="600" height="400" controls="controls">
+                <source src="images/Arduino/opdracht3.mp4" type="video/mp4">
+              </video>
+          </div>
+          <div class="geen-kleur" id="arduino4c">
+            <h3>Opdracht 4C</h3>
+              <p>In deze opdracht ging ik verder met de twee lampjes opzet en moest ik een loop gebruiken om de lampjes te laten dimmen. Uiteindelijk was de opdracht om één lampje te laten dimmen, terwijl de ander juist feller wordt. Hier kwam een rekensommetje om de hoek kijken, je wilt namelijk dat beiden lampjes wel tegelijk werken. Uiteindelijk heb ik de brightness van het tweede lampje op 255 gezet en het – brightness gedaan, zodat elke keer wanneer hij loopt er 1 brightness waarde afgaat. </p>
+              <img  id="computerimg" src="images/Arduino/opdracht4.png" alt="opdr 4 ">
+              <video width="600" height="400" controls="controls">
+                <source src="images/Arduino/opdracht 4.mp4" type="video/mp4">
+              </video>
+          </div>
+          <div class="kleur-strook" id="opdracht-3">
+            <h3>Opdracht 5</h3>
+              <p>Met deze opdracht moest ik gaan kijken wat de waardes zijn die binnenkomen, wanneer een button gedraaid wordt. Dit was handig om te weten voor de volgende opdracht, dit zodat je ziet welke waardes deze knop kunnen bevatten. </p>
+              <img id="arduinoimg5" src="images/Arduino/opdracht5.png" alt="opdr5 ">
+          </div>
+          <div class="geen-kleur">
+            <h3>Opdracht 6C</h3>
+              <p>In deze opdracht ging ik verder met de rotatie button, waarbij ik het circuit van de twee lampjes weer gebruikte. Het was hierin de bedoeling dat door het draaien van de button de lampjes gingen dimmen of feller werden. We moesten gebruik maken van de Map functie van Arduino om ervoor te zorgen dat de range van de draaiknop gelijk staat met de range van de lampjes. Daarna was de opdracht dat het ene lampje moet dimmen terwijl de ander feller wordt, tegelijkertijd zonder dat je vertraging ziet tussen de twee.  Dit is mij uiteindelijk gelukt doordat ik een extra variabelen aanmaakte. Zo spreek ik de variabelen die binnen komen apart aan en kan ik hierop ook een andere range voor de lamp aangeven. Zo kan ik zeggen dat het eerste lampje dan van 0 tot 255 moet gaan en het andere lampje juist van 255 tot 0. Zo gaat tegelijkertijd de een dimmen en de ander feller. </p>
+              <video width="600" height="400" controls="controls">
+                <source src="images/Arduino/opdracht6.mp4" type="video/mp4">
+              </video>
+              <img class="computerimg" src="images/Arduino/opdracht6.png" alt="opdr6 ">
+          </div>
+          <div class="kleur-strook" id="arduino7a">
+            <h3>Opdracht 7A</h3>
+              <p>In deze opdracht kreeg ik al een opgezette code, die ik kon gebruiken om een smiley face te projecteren op het licht display. Het gaf een goed inzicht hoe dit werkt en hoe je uiteindelijk zelf kan spelen met deze code om iets anders te laten zien. Als ik nu bijvoorbeeld de eerste rij van code aanpas kan ik niet 4 lampjes laten branden maar bijvoorbeeld alle 8. Want de eerste twee decimalen staan voor de rij en column en de volgende decimalen staat voor elk lampje. Als ik hier bijvoorbeeld B11111111, dan brand elk lampje op deze rij. Hier kan je dus erg leuk mee spelen. </p>
+              <img id="arduinoimg7" src="images/Arduino/opdracht7.png" alt="opdr7 ">
+              <video width="600" height="400" controls="controls">
+                <source src="images/Arduino/opdracht7.mp4" type="video/mp4">
+              </video>
+          </div>
+          <div class="geen-kleur" id="arduino8a">
+            <h3>Opdracht 8A</h3>
+              <p>In deze opdracht ging ik aan de slag met een sensor dat gevoelig is voor licht. De sensor stuurt bepaalde waardes door naar de Arduino, waardoor je doormiddel van deze waardes ervoor kan zorgen dat je licht dimt of juist feller wordt. Eerst heb ik gekeken naar welke waardes er binnen kwamen door de serial monitor te openen. Hier kwamen de waarde 0 tm 37 binnen. Hierop heb ik de code aangepast, zodat de range klopt met de lampjes. Dit heb ik gedaan met de map functie, zo geef ik aan dat de range van 0 tot 37 gaat en dat dat moet passen tussen de 0 en 255 range van het lampje. Nu worden ze feller of dimmen ze als ik dichterbij kom. </p>
+              <video width="600" height="400" controls="controls">
+                <source src="images/Arduino/opdracht8.mp4" type="video/mp4">
+              </video>
+              <img class="computerimg" src="images/Arduino/opdracht8.png" alt="opdr8 ">
+          </div>
+          <div class="kleur-strook" id="arduino9c" >
+            <h3>Opdracht 9C</h3>
+              <p>In deze oefening ging ik aan de slag met een speaker. Door te spelen met de hertz frequentie kon ik hem bijvoorbeeld vader jacob laten spelen (ja dat heb ik hem echt laten spelen!) Maar uiteindelijk was de opdracht om een sirene te maken en door wat aanpassingen in de code, ging de sirene inderdaad af. De aanpassing die dit heeft gedaan is door twee loops te maken, waarin de frequentie eerst omhoog loopt en wanneer deze een bepaalde waarde heeft bereikt, de waarde naar beneden af loopt. Ik vondt het zelf lastig om uit te vinden welke loop ik nodig had en heb het internet raadgepleegd, de volgende link heeft mij geholpen: <a href="https://forum.arduino.cc/t/problems-with-siren-and-bluetooth-stuck-in-loop/484210/3">Klik hier</a></p>
+              <img id="arduinoimg9" src="images/Arduino/opdracht9.png" alt="opdr9 ">
+              <video width="600" height="400" controls="controls">
+                <source src="images/Arduino/opdracht9.mp4" type="video/mp4">
+              </video>
+          </div>
+          <div class="geen-kleur" id="arduino11c">
+            <h3>Opdracht 11C</h3>
+              <p>In deze opdracht ging ik aan de slag met een afstandssensor. Deze meet de afstand van een object tot zich en deze waardes kan je daarna ook weer gebruiken om bijvoorbeeld iets te laten branden. Uiteindelijk heb ik de code zo aangepast dat als ik dichterbij de sensor kwam het lichtje zal gaan blinken, ik kan namelijk de cm aanpassen. Als ik dit aanpas dan bepaal ik de afstand van het object.</p>
+              <video width="600" height="400" controls="controls">
+                <source src="images/Arduino/opdracht11.mp4" type="video/mp4">
+              </video>
+              <img class="computerimg" src="images/Arduino/opdracht11.png" alt="opdr11 ">
+          </div>
+          <div class="kleur-strook" id="arduino12d">
+            <h3>Opdracht 12D</h3>
+              <p>In deze opdracht ging ik aan de slag met Arduino in combinatie met Processing. Het programma wat ik al eerder voor school opdrachten heb gebruikt om leuke interacties te coderen. Ik heb hierbij de circuit opzet gebruikt van opdracht 8, waarbij de vorm in processing uiteindelijk veranderde doordat ik dichter of verderaf kwam van de sensor. Dit kwam tot stand omdat ik de sensorvalue aanpaste naar de inkomende waarde van de sensor. Daarbij gaf ik aan dat deze waardes moesten voldoen aan de waarde 0 tot en met 255. Zo krijg je bij de kleinste waarde een kleine cirkel en bij een grote waarde een grote cirkel. De cirkel in processing leest deze sensorvalue in Arduino uit, waardoor dit dus allemaal tot stand komt. </p>
+              <img id="arduinoimg12" src="images/Arduino/Afbeelding12ar.png" alt="opdr12 ">
+              <img id="arduinoimg12d" src="images/Arduino/Afbeelding12proc.png" alt="opdr12 ">
+              <video width="600" height="400" controls="controls">
+                <source src="images/Arduino/opdracht12.mp4" type="video/mp4">
+              </video>
+          </div>
+          <div class="geen-kleur" id="arduino13b">
+            <h3>Opdracht 13B</h3>
+              <p>In de vorige opdracht ging het om Arduino koppelen met Processing, maar in deze opdracht gaat het erom dat ik processing met Arduino koppel. Daarnaast moest ik een andere bron gaan gebruiken van de Arduino kant. Dus ik heb een andere sensor gebruikt. Ook moest ik iets anders laten verschijnen in processing. Uiteindelijk heb ik voor de draai sensor gekozen en twee setjes met lampjes. Dit circuit kwam uit opdracht 6. Ook heb ik de code van opdracht 6 verder uitgewerkt in deze opdracht. In processing heb ik van de vorm een driehoek gemaakt en deze van andere kleur laten veranderen. Uiteindelijk heb ik het voor elkaar gekregen om doordat ik met de muis over de driehoek ging, de lampen aan gingen, waarna ik met de draaiknop de helderheid kon aanpassen. De helderheid werd bestuurd door de map functie die ik al eerder had gebruikt. De driehoek uit processing werkte met een mouse over effect. Processing stuurde dan een code door naar Arduino als het waar was, dan sprak het namelijk poort “val H” aan, als het niet waar was sprak het poort “val L” aan. In Arduino is bij deze poorten de lampjes weergegeven, die branden via sensorvalue (in poort val h) of low zijn (in poort val L). Zo heb ik uiteindelijk ervoor kunnen zorgen dat de lampjes branden wanneer er interactie is in de schets van processing en de lampjes veller en minder vel werden, wanneer ik de draaisensor draaide. </p>
+              <video width="600" height="400" controls="controls">
+                <source src="images/Arduino/opdracht13.mp4" type="video/mp4">
+              </video>
+              <img id="arduinoimg13" src="images/Arduino/Afbeelding13ar.png" alt="opdr13 ">
+              <img id="arduinoimg13b" src="images/Arduino/Afbeelding13proc.png" alt="opdr13 ">
+          </div>
+          <div class="kleur-strook" id="arduino14b">
+            <h3>Opdracht 14B</h3>
+              <p>In deze opdracht ga ik aan de slag met een button. Het is de bedoeling dat ik met de, doordat ik de button indruk het lampje kan aanzetten. Dit lukte al vrij snel en dus werd mij gevraagd of ik ook met de button het lampje juist kan uitzetten in plaats van aan. Na wat spelen met de code is dit ook gelukt, dit is uiteindelijk gelukt door LOW en HIGH om te draaien. </p>
+              <img id="arduinoimg14" src="images/Arduino/opdracht14.png" alt="opdr14 ">
+              <video width="600" height="400" controls="controls">
+                <source src="images/Arduino/opdracht14.mp4" type="video/mp4">
+              </video>
+          </div>
+          <div class="geen-kleur" id="arduino15b">
+            <h3>Opdracht 15B</h3>
+              <p>In deze opdracht ben ik aan de slag gegaan met de servomotor. Hierin kreeg ik al wat code toegeschoven, waardoor de motor zal gaan draaien, maar het was aan mij om uiteindelijk de motor op een leuke manier te laten dansen. Na wat spelen met de code heb ik wel iets grappigs neer kunnen zetten. Ik heb hierin vooral gespeeld met de loops en de positie variabelen van de motor, zodat hij op andere manieren ging bewegen. </p>
+              <video width="600" height="400" controls="controls">
+                <source src="images/Arduino/opdracht15.mp4" type="video/mp4">
+              </video>
+              <img class="computerimg" src="images/Arduino/opdracht15.png" alt="opdr15 ">
+          </div>
+          <div class="kleur-strook" id="arduino16d">
+            <h3>Opdracht 16D</h3>
+              <p>In deze laatste opdracht moet ik een eigen sensor gaan maken. Het was namelijk de bedoeling dat ik doordat ik deze sensor dan zal aanraken, het lampje zal gaan branden. Als eerst heb ik het uitgeprobeerd met aluminium folie, maar uiteindelijk ook met een aardbei. Ik heb de val waarde iets aangepast, zodat ik echt de aardbei moest aanraken, wilde het werken. De waarde was namelijk zo laag dat het van een afstand al ging branden. </p>
+              <img id="image-kleur5" src="images/Arduino/opdracht16.png" alt="opdr16 ">
+              <video width="600" height="400" controls="controls">
+                <source src="images/Arduino/opdrach16.mp4" type="video/mp4">
+              </video>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <a class="footer-a" href="#">Ontworpen bij Marissa Hoekmeijer, 2022, HCI-Technologies</a>
+      </footer>
+    </div>
+  </body>
+</html>

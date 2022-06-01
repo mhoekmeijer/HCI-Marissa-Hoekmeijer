@@ -1,0 +1,493 @@
+html {
+
+}
+body{
+
+}
+.main-container {
+  margin: 0 auto;
+  padding: 10px auto;
+  max-width: 1500px;
+  /* border: solid;
+  border-width:1px;
+  border-color: darksalmon; */
+}
+a {
+  text-decoration: none;
+}
+
+
+li {
+  list-style: none;
+  line-height: 50px;
+}
+.navbar {
+  background-color: #ffffff;
+  font-family: poppinsmedium;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdowns  {
+  display: flex;
+
+}
+.menu-item-container {
+  position: relative;
+}
+.dropdowns .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+.navbar a:hover, .dropbtn:hover {
+  background-color: darksalmon;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.dropdown-content:hover,
+.dropbtn:hover + .dropdown-content {
+  background: white;
+  display: block;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: poppinsmedium;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+.frameimg1 {
+  position: relative;
+  background-image: url("images/header.jpg");
+  background-size: contain;
+  background-position: center;
+  background-size: 100%;
+  height: 600px;
+}
+
+h1 {
+  position: absolute;
+  color: white;
+  font-family: poppins;
+  left: 34%;
+  top: 35%;
+  background-color: rgb(0,0,0,0.8);
+  padding: 50px;
+}
+
+.me .playimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+#reflect-p {
+  width: 90%;
+}
+
+p {
+  font-size: 25px;
+  font-family: nunito;
+  padding: 20px;
+  line-height: 50px;
+  width: 60%;
+}
+li {
+  font-size: 25px;
+  font-family: nunito;
+  width: 60%;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: raleway;
+  padding: 0 20px;
+}
+h3 {
+  font-size: 40px;
+  font-family: raleway;
+  padding: 0 20px
+}
+.kleur-strook h3{
+  color: white;
+}
+
+.kleur-strook {
+  background-color: darksalmon;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 0px 20px;
+  padding: 50px 10px;
+  margin: 0px 0px;
+}
+.geen-kleur{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 0px 20px;
+  padding: 50px 10px;
+  margin: 0px 0px;
+}
+
+.kleur-strook img {
+  position: absolute;
+  margin: -20px 80%;
+  width: 250px;
+}
+.geen-kleur img {
+  position: absolute;
+  left: 65%;
+  top: 10%;
+  /* position:; */
+  /* margin: 30% 60%; */
+  width: 500px;
+}
+
+.kleur-strook .geen-kleur p {
+  /* order: 3; */
+  width: 40%;
+  align-self: left;
+}
+#playimg2  {
+  top: 20%;
+}
+.kleur-strook #image-kleur {
+  width: 500px;
+  margin: 0 auto;
+  left: 65%;
+  top: 20%;
+}
+.kleur-strook #image-kleur2 #image-kleur3 #image-kleur4 {
+  width: 200px;
+}
+.kleur-strook #image-kleur2{
+  margin: 0 auto;
+  top: 5%;
+  left: 65%;
+}
+.kleur-strook #image-kleur3{
+  margin: 0 auto;
+  top: 35%;
+  left: 80%;
+}
+.kleur-strook #image-kleur4{
+  margin: 0 auto;
+  top: 65%;
+  left: 65%;
+}
+.kleur-strook #image-kleur5{
+  margin: 0 auto;
+  width:400px;
+  top:5%;
+  left: 70%;
+}
+.kleur-strook video{
+  width:450px;
+  top:25%;
+
+}
+video {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+}
+#opdracht-3{
+  height: 500px;
+}
+
+/* //// playassignment pagina  */
+#conceptlist li {
+  list-style-type: circle;
+  list-style: inherit;
+}
+/* .playimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+} */
+
+
+/* workshopcomputer */
+#opdracht1img {
+  /* position: relative; */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+#opdracht1img img {
+  /* position: absolute; */
+  width: 200px;
+}
+
+.kleur-strook a{
+  color: white;
+}
+a {
+  /* font-family: cursive; */
+  color: darksalmon;
+}
+
+video {
+  margin: 0;
+  width: 500px;
+}
+
+footer {
+  height: 40px;
+  margin: 20px auto;
+  text-align: center;
+}
+.footer-a {
+  padding: 20px;
+}
+
+/* workshop 2 aanpassingen */
+.kleur-strook #image-lego1{
+  margin: 0 auto;
+  top: 5%;
+  left: 40%;
+}
+.kleur-strook #image-lego2{
+  margin: 0 auto;
+  top: 5%;
+  left: 60%;
+}
+.kleur-strook #image-lego3{
+  margin: 0 auto;
+  top: 5%;
+  left: 80%;
+}
+.geen-kleur #image-karting{
+  margin: 0 auto;
+  width: 400px;
+  top: 5%;
+  left: 65%;
+}
+.geen-kleur #video-karting{
+  margin: 0 auto;
+  width: 400px;
+  top: 30%;
+  left: 65%;
+}
+#micro-karting{
+  height: 600px;
+}
+.kleur-strook #image-adv1{
+  margin: 0 auto;
+  top: 5%;
+  left: 50%;
+}
+.kleur-strook #image-adv2{
+  margin: 0 auto;
+  top: 5%;
+  left: 70%;
+}
+.kleur-strook #image-adv3{
+  margin: 0 auto;
+  width: 400px;
+  top: 20%;
+  left: 65%;
+}
+.kleur-strook #image-adv4{
+  margin: 0 auto;
+  width: 400px;
+  top: 45%;
+  left: 65%;
+}
+.kleur-strook #video-adv{
+  margin: 0 auto;
+  width: 500px;
+  top: 60%;
+  left: 60%;
+}
+#micro-adv-lego {
+  height: 1000px;
+}
+#a-frame1 {
+  left: 80%;
+  width: 200px;
+}
+#video-opdr1{
+  top: 5%;
+}
+#a-frame-img, #a-frame-img1 {
+  width: 300px;
+}
+#a-frame-img1{
+  top: 50%;
+  left: 80%;
+}
+#a-frame-img{
+  left: 65%;
+}
+#a-frame-opdr2{
+  height: 400px;
+}
+
+/* aanpassingen AR&VR research webpagina */
+
+#video-yt {
+  position: absolute;
+  top: 10%;
+  left: 60%;
+}
+#arresearch p {
+  width: 55%;
+}
+/* aanpassingen voor de VR&AR assignment pagina */
+#kok-img, #kok-img2, #kok-img3{
+  width: 300px;
+}
+
+#kok-img{
+  top: 5%;
+  left: 65%;
+}
+#kok-img2{
+  top: 30%;
+  left: 75%;
+}
+#kok-img3{
+  top: 65%;
+  left: 65%;
+}
+#arassignmentsp {
+  width: 100%;
+}
+/* aanpassingen voor de Arduino assignment pagina */
+
+#mainarduino video {
+top: 50%;
+left: 65%;
+
+}
+
+#arduino1 {
+  margin: 0 auto;
+  width: 600px;
+  top: 60%;
+  left: 10%;
+}
+#arduino3b, #arduino4c, #arduino7a, #arduino8a, #arduino9c, #arduino11c, #arduino12d, #arduino14b, #arduino15b, #arduino16d{
+  height: 750px;
+}
+#arduino12d {
+  height: 850px;
+}
+#arduino12d video {
+  top: 55%;
+}
+#arduino13b {
+  height: 1100px;
+}
+#arduino13b video{
+  top: 65%;
+}
+#arduinoimg13 {
+  height:400px;
+  top: 30%;
+}
+#arduinoimg13b {
+  top: 4%;
+}
+#arduinoimg12 {
+  margin: 0 auto;
+  width: 400px;
+  left: 30%;
+  top: 68%;
+}
+#arduinoimg12d {
+  width: 500px;
+  margin: 0 auto;
+  top: 10%;
+  left: 65%;
+}
+
+#arduinoimg5 {
+  margin: 0 auto;
+  top: 5%;
+  left: 65%;
+  width: 500px;
+}
+#arduinoimg7 {
+  margin: 0 auto;
+  left: 65%;
+  width: 400px;
+  top:2%;
+}
+#arduinoimg9, #arduinoimg14 {
+ margin: 0 auto;
+ left: 65%;
+ width: 500px;
+ top:2%;
+}
+/* aanpassingen voor de wearables assignment pagina */
+#wearablesconcept {
+  height: 700px;
+}
+#wearablesconcept img {
+  width: 350px;
+}
+#wear-img{
+  top: 5%;
+  left: 62%;
+}
+#wear-img2{
+  top: 40%;
+  left: 75%;
+}
+#wear-img3{
+  top: 65%;
+  left: 50%;
+}
+#wearimg1 {
+  left: 70%;
+  width: 300px;
+}
+/* aanpassingen voor de wearables research pagina */
+#wearresearch .kleur-strook {
+  height:1100px;
+}
+#wearresearch iframe {
+  position: absolute;
+}
+.videowear {
+  left: 62%;
+  top: 50%;
+}
+.videowear2 {
+  left: 2%;
+  top: 72%;
+}
